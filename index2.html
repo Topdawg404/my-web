@@ -1,0 +1,223 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vison First, LLC - Media that sells. Consulting that scales.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-in-up {
+      animation: fadeInUp 0.5s ease-out;
+    }
+    .animate-fade-in-up-delay {
+      animation: fadeInUp 0.7s ease-out 0.1s backwards;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100">
+  
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-slate-950/50 border-b border-white/10">
+    <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <div class="h-9 w-9 grid place-items-center rounded-xl bg-indigo-500/20 ring-1 ring-indigo-400/30">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-300">
+            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            <path d="M5 3v4"/>
+            <path d="M19 17v4"/>
+            <path d="M3 5h4"/>
+            <path d="M17 19h4"/>
+          </svg>
+        </div>
+        <span class="font-semibold tracking-tight text-white">Vison First, LLC</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#services" class="hover:text-white">Services</a>
+        <a href="#ebooks" class="hover:text-white">eBooks</a>
+        <a href="#consulting" class="hover:text-white">Consulting</a>
+        <a href="#work" class="hover:text-white">Portfolio</a>
+        <a href="#pricing" class="hover:text-white">Pricing</a>
+        <a href="#faq" class="hover:text-white">FAQ</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="#contact" class="inline-flex items-center justify-center rounded-2xl text-sm font-medium bg-white text-black hover:bg-white/90 h-9 px-4 py-2">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(1000px_600px_at_50%_-10%,rgba(99,102,241,0.25),transparent_70%)]"></div>
+    <div class="mx-auto max-w-7xl px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+      <div class="animate-fade-in-up">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+          Media that sells. Consulting that scales.
+        </h1>
+        <p class="mt-5 text-lg text-slate-300 max-w-prose">
+          Vison First helps creators and companies launch high-converting eBooks and build
+          robust technical systems. From content strategy to network engineering, we bring
+          full-stack expertise that turns ideas into revenue.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#services" class="inline-flex items-center justify-center rounded-2xl text-sm font-medium bg-white text-black hover:bg-white/90 h-10 px-6 py-2">
+            Explore Services
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#contact" class="inline-flex items-center justify-center rounded-2xl text-sm font-medium bg-slate-800 text-white hover:bg-slate-700 h-10 px-6 py-2">Start a Project</a>
+        </div>
+        <div class="mt-6 flex items-center gap-6 text-xs text-slate-400">
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+            </svg>
+            NDA Friendly
+          </div>
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+              <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+              <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+              <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+            </svg>
+            Fast Turnaround
+          </div>
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+            Hands-on Support
+          </div>
+        </div>
+      </div>
+      <div class="animate-fade-in-up-delay">
+        <div class="bg-slate-900/60 border border-white/10 rounded-2xl shadow-2xl p-6 md:p-8">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-xl bg-indigo-500/10 border border-indigo-400/20 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-300">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+              </svg>
+              <h3 class="mt-3 font-semibold">eBook Launches</h3>
+              <p class="mt-1 text-xs text-slate-400">Outlines, design, landing pages, funnels.</p>
+            </div>
+            <div class="rounded-xl bg-emerald-500/10 border border-emerald-400/20 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-300">
+                <rect width="16" height="16" x="4" y="4" rx="2"/>
+                <rect width="6" height="6" x="9" y="9" rx="1"/>
+                <path d="M15 2v2"/>
+                <path d="M15 20v2"/>
+                <path d="M2 15h2"/>
+                <path d="M2 9h2"/>
+                <path d="M20 15h2"/>
+                <path d="M20 9h2"/>
+                <path d="M9 2v2"/>
+                <path d="M9 20v2"/>
+              </svg>
+              <h3 class="mt-3 font-semibold">Technical Consulting</h3>
+              <p class="mt-1 text-xs text-slate-400">Networking, automation, and cloud.</p>
+            </div>
+            <div class="rounded-xl bg-sky-500/10 border border-sky-400/20 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-300">
+                <path d="M3 3v18h18"/>
+                <path d="m19 9-5 5-4-4-3 3"/>
+              </svg>
+              <h3 class="mt-3 font-semibold">Go-to-Market</h3>
+              <p class="mt-1 text-xs text-slate-400">Pricing, bundles, A/B tests, analytics.</p>
+            </div>
+            <div class="rounded-xl bg-rose-500/10 border border-rose-400/20 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-300">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+              <h3 class="mt-3 font-semibold">Training</h3>
+              <p class="mt-1 text-xs text-slate-400">Playbooks, SOPs, workshops.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mx-auto max-w-7xl px-4 py-16">
+    <div class="mb-8">
+      <div class="text-xs uppercase tracking-widest text-indigo-300/80">Let's Talk</div>
+      <h2 class="mt-2 text-2xl md:text-3xl font-bold text-white">Start Your Project</h2>
+      <p class="mt-2 text-slate-300 max-w-2xl">Tell us about your goals. We'll respond within one business day.</p>
+    </div>
+    <div class="bg-slate-900/60 border border-white/10 rounded-2xl p-6 md:p-8">
+      <form class="grid md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm text-slate-300 mb-1">Full Name</label>
+          <input class="w-full rounded-xl border border-white/10 bg-slate-950/60 p-3 outline-none focus:ring-2 focus:ring-indigo-500 text-white" placeholder="Jane Doe" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-300 mb-1">Email</label>
+          <input class="w-full rounded-xl border border-white/10 bg-slate-950/60 p-3 outline-none focus:ring-2 focus:ring-indigo-500 text-white" placeholder="you@example.com" type="email" />
+        </div>
+        <div class="md:col-span-2">
+          <label class="block text-sm text-slate-300 mb-1">Message</label>
+          <textarea class="w-full rounded-xl border border-white/10 bg-slate-950/60 p-3 outline-none focus:ring-2 focus:ring-indigo-500 min-h-[120px] text-white" placeholder="What are you trying to achieve? Timeline? Budget?"></textarea>
+        </div>
+        <div class="md:col-span-2 flex flex-wrap items-center justify-between gap-3 pt-2">
+          <div class="flex items-center gap-4 text-sm text-slate-300">
+            <a href="mailto:visonfirst@gmail.com" class="flex items-center gap-2 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              visonfirst@gmail.com
+            </a>
+            <span class="hidden md:inline">•</span>
+            <a href="tel:+1-404-555-0101" class="flex items-center gap-2 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              +1 (404) 555-0101
+            </a>
+            <span class="hidden md:inline">•</span>
+            <a href="#" class="flex items-center gap-2 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                <path d="M2 12h20"/>
+              </svg>
+              @visonfirst
+            </a>
+          </div>
+          <button type="submit" class="inline-flex items-center justify-center rounded-2xl text-sm font-medium bg-white text-black hover:bg-white/90 h-10 px-6 py-2">Send Inquiry</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10 text-sm">
+    <div class="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-slate-400">© <span id="year"></span> Vison First, LLC. All rights reserved.</p>
+      <div class="flex items-center gap-6 text-slate-400">
+        <a href="#" class="hover:text-white">Privacy</a>
+        <a href="#" class="hover:text-white">Terms</a>
+        <a href="mailto:visonfirst@gmail.com" class="hover:text-white">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
